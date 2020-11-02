@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: "messages#index"
 
   resouces :messages
+  resouces :users
 end
